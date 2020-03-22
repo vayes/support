@@ -1,0 +1,24 @@
+{
+    "name": "vayes/support",
+    "type": "library",
+    "description": "Provides useful generic enums and utils.",
+    "keywords": [],
+    "homepage": "https://vayes.com.tr",
+    "license": "MIT",
+    "authors": [
+        {
+          "name": "Yahya Erturan",
+          "email": "yahya@erturan.com.tr"
+        }
+    ],
+    "require": {
+        "php": "^7.1.3",
+        "vayes/enum": "1.*"
+    },
+    "autoload": {
+        "psr-4": { "Vayes\\Support\\": "" },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    }
+}
