@@ -16,6 +16,7 @@ abstract class Constraint extends BaseEnum
     */
     const UNIQUE = 'unique'; // CUSTOM -> unique[users.name,users.id]
     const VALID_UUID = 'valid_uuid'; // CUSTOM -> valid_uuid
+    const NOT_NULL = 'not_blank'; // CUSTOM -> not_blank[column_name]
 
     /*
     |--------------------------------------------------------------------------
